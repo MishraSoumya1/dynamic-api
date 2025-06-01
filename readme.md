@@ -63,8 +63,11 @@ POST http://localhost:8080/events/userCreated
 
 ```json
 {
-  "userId": "12345",
-  "email": "user@example.com"
+  "event_type": "user_signup",
+  "data": {
+    "email": "jane.doe@example.com",
+    "name": "Jane Doe"
+  }
 }
 ```
 
