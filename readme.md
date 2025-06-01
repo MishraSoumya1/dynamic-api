@@ -79,7 +79,7 @@ Put JSON Schema files in:
 src/main/resources/schemas/
 ```
 
-Example: `userCreated.json`
+Example: `user_signup_schema.json`
 
 ---
 
